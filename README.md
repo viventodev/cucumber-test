@@ -1,5 +1,9 @@
 # A repository to illustrate use of cucumber
 
+## Requirements
+Node.js and npm
+Hint: https://nodejs.org and download for your os
+
 ## Install software
 ```
 $ npm install
