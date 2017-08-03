@@ -16,7 +16,8 @@
     "babel-polyfill": "^6.23.0"
   },
   "scripts": {
-    "test": "./node_modules/.bin/wdio wdio.conf.js"
+    "test": "./node_modules/.bin/wdio wdio.conf.js",
+    "test-with-docker": "./node_modules/.bin/wdio wdio.DOCKER.conf.js"
   },
   "author": "",
   "license": "ISC"
