@@ -6,6 +6,13 @@ $ npm install
 ```
 
 ## Run test
+On standalone server:
 ```
-$ ./node_modules/.bin/wdio wdio.conf.js
+$ npm run test
+```
+
+Against selenium grid in docker:
+```
+$ sudo docker-compose up&
+$ npm run test-with-docker
 ```
