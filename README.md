@@ -38,7 +38,7 @@ $ ./node_modules/.bin/wdio wdio.DOCKER.conf.js
 
 ## What is being tested
 There are two features
-``` cucumber
+``` gherkin
 Feature:
 In order to know what the cost of sending an parcel
 As a customer
