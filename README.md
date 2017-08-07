@@ -38,7 +38,7 @@ $ ./node_modules/.bin/wdio wdio.DOCKER.conf.js
 
 ## What is being tested
 There are two features with multiple scenarios
-src/features/Posten_innenlands_porto.feature
+[src/features/Posten_innenlands_porto.feature](src/features/Posten_innenlands_porto.feature)
 ``` gherkin
 Feature:
 In order to know what the cost of sending an parcel
@@ -60,7 +60,7 @@ Given I open the url "https://www.posten.no/sende/pakke/over-2-kg"
 When I click on the element "(//input[@name='weight'])[3]"
 Then I expect that element "span.js-innerText-from-dataAttr-price" contains the text "360,-"
 ```
-(src/features/Posten_utenlands_porto.feature)
+[src/features/Posten_utenlands_porto.feature](src/features/Posten_utenlands_porto.feature)
 ```gherkin
 Feature:
 In order to know what the cost of sending an parcel abroad
