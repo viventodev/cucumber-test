@@ -17,27 +17,28 @@ For Linux you need to install them separately, cf
 https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/
 https://docs.docker.com/compose/install/
 ### Clone the project
-```
+``` Shell
 $ git clone https://github.com/viventodev/cucumber-test.git
 $ cd cucumber-test
 ```
 ### Install the project software
-```
+``` Shell
 $ npm install
 ```
 ## Run tests
 On standalone server:
-```
+``` Shell
 $ ./node_modules/.bin/wdio wdio.conf.js
 ```
 Against Selenium grid in docker:
-```
-$ sudo docker-compose up&
+``` Shell
+$ sudo docker-compose up # in a dedicated terminal window
 $ ./node_modules/.bin/wdio wdio.DOCKER.conf.js
 ```
 
 ## What is being tested
 There are two features with multiple scenarios
+###
 [src/features/Posten_innenlands_porto.feature](src/features/Posten_innenlands_porto.feature)
 ``` gherkin
 Feature:
@@ -60,6 +61,7 @@ Given I open the url "https://www.posten.no/sende/pakke/over-2-kg"
 When I click on the element "(//input[@name='weight'])[3]"
 Then I expect that element "span.js-innerText-from-dataAttr-price" contains the text "360,-"
 ```
+###
 [src/features/Posten_utenlands_porto.feature](src/features/Posten_utenlands_porto.feature)
 ```gherkin
 Feature:
