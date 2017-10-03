@@ -35,6 +35,10 @@ Against Selenium grid in docker:
 $ sudo docker-compose up # in a dedicated terminal window
 $ ./node_modules/.bin/wdio wdio.DOCKER.conf.js
 ```
+Only run a specific feature:
+``` Shell
+$ ./node_modules/.bin/wdio wdio.DOCKER.conf.js --spec ./src/features/Posten_finn.kalkulator.feature
+```
 
 ## What is being tested
 There are two features with multiple scenarios
