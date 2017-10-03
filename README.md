@@ -37,7 +37,7 @@ $ ./node_modules/.bin/wdio wdio.DOCKER.conf.js
 ```
 Only run a specific feature:
 ``` Shell
-$ ./node_modules/.bin/wdio wdio.DOCKER.conf.js --spec ./src/features/Posten_finn.kalkulator.feature
+$ ./node_modules/.bin/wdio wdio.DOCKER.conf.js --spec ./src/features/Posten_finn_kalkulator.feature
 ```
 
 ## What is being tested
